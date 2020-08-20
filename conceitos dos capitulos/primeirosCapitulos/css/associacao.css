@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+ *{
+   margin: 0px;
+   padding: 0px;
+ }
+body {
+  font-family: Source Code Pro;
+  font-size: 12pt;
+  background-color: rgb(69, 105, 163);
+}
+
+div::before{
+  content: "Relação por Associação - Poo Php";
+  background-color: rgb(39, 55, 71);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  display: block;
+  position: relative;
+  width: 660px;
+  top: -10px;
+  left: -10px;
+}
+
+div {
+  background-color: lightgrey;
+  margin: 100px auto 100px auto;
+  width: 650px;
+  min-height: 300px;
+  padding: 10px;
+}
+
+a {
+    color: #273747;
+    text-decoration: none;
+    font-weight: bold;
+    font: 11pt Helvetica;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}
