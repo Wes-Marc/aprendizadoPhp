@@ -2,7 +2,7 @@
 Repositorio para meu progresso em PHP
 
 Esse repositorio foi criado especificamente com o proposito de monitorar o meu progresso na linguagem PHP
-e poder colocar em prática os comandos git para ja me abtuar com essa forma de trabalho.
+e poder colocar em prática os comandos git para ja me habituar com essa forma de trabalho.
 Dessa forma posso estudar e praticar em qualquer lugar que eu estiver.
 
 # English
