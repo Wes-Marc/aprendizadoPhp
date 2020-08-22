@@ -6,7 +6,7 @@ $dir = str_replace("\\", "/", __DIR__);
 class FileNotFoundException extends Exception{}
 class FilePermissionException extends Exception{}
 
-$csv = new CSVParser("{$dir}"."/clientes.csv", ';');
+$csv = new CSVParser("{$dir}"."/classes/clientes.csv", ';');
 try {
   $csv->parse();  // método que pode lançar erro
   while ($row = $csv->fetch()) {
